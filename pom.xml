@@ -57,6 +57,13 @@
 			<version>${spark.version}</version>
 		</dependency>
 
+		<!-- Spark Twitter connector -->
+		<dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-streaming-twitter_2.10</artifactId>
+			<version>${spark.version}</version>
+		</dependency>
+
 		<!-- Disambiguate Scala version -->
 		<dependency>
 			<groupId>org.scala-lang</groupId>
@@ -96,11 +103,13 @@
 		</dependency>
 
 		<!-- Jackson JSON Utils -->
+		<!--
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
+		-->
 	</dependencies>
 
 
