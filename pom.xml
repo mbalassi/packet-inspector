@@ -64,6 +64,12 @@
 			<version>${spark.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-stream</artifactId>
+			<version>4.0.4</version>
+		</dependency>
+
 		<!-- Disambiguate Scala version -->
 		<dependency>
 			<groupId>org.scala-lang</groupId>
